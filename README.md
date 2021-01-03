@@ -1,62 +1,34 @@
-# A Next.js starter for the [JAMstack](https://jamstack.org)
-This is a boilerplate for using [Next.js](https://nextjs.org/) as a static site generator.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-starter-jamstack)
+## Getting Started
 
-## Usage
-
-### Getting started
-
-To start your project, either:
-
-1. Deploy to Netlify using the button above, or
-2. Clone this repository and run:
+First, run the development server:
 
 ```bash
-npm install
+npm run dev
+# or
+yarn dev
 ```
 
-This will take some time and will install all packages necessary to run the starter.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Development
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-While developing your website, use:
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-```bash
-npm start
-```
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-Then visit http://localhost:3000/ to preview your new website. The Next.js development server will automatically reload the CSS or refresh the whole page, when stylesheets or content changes.
+## Learn More
 
-### Static build
+To learn more about Next.js, take a look at the following resources:
 
-To build a static version of the website inside the `/dist` folder, run:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-```bash
-npm run build
-```
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-See [package.json](package.json) for all tasks.
+## Deploy on Vercel
 
-## Basic Concepts
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-You can read more about building sites and apps with Next.js in their documentation here:
-
-https://nextjs.org/docs
-
-## Doing dynamic things
-
-A few resources for doing anything you can imagine with a 100% static site/app on the JAMstack
-using Next.js. If you would like to add more resources please open a pull request!
-
-- [Using Next.js as a Static Site Generator for Netlify](https://scotch.io/@sw-yx/using-nextjs-as-a-static-site-generator-for-netlify) - [Shawn Wang](https://twitter.com/swyx)
-- [Serverless Next.js 9 on Netlify Functions](https://community.netlify.com/t/serverless-next-js-9-on-netlify-functions/1956) - [Shawn Wang](https://twitter.com/swyx)
-
-## Deploying to Netlify
-
-The deploy to Netlify button above will create a new site and repo in one click. If you've created your repo manually, you can deploy to Netlify as follows:
-
-- Push your clone to your own GitHub repository.
-- [Create a new site on Netlify](https://app.netlify.com/start) and link the repository.
-
-Now Netlify will build and deploy your site whenever you push to git.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
